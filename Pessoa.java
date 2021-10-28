@@ -1,30 +1,39 @@
-pubic class Pessoa{
+//nome da classe
+public class Pessoa{
+
+ //atributos   
     private String nome;
     private String telefone;
-    private String endereço;
+    private String endereco;
 //fazer os métodos de acesso público
 //set
-pubic void setNome(String){
+//metodo alteração
+public void setNome(String nome){
     this.nome=nome;
 }
 //get
-pubic String getNome(){
+//método de consulta
+public String getNome(){
     return this.nome;
 }
 //set
-pubic void setTelefone(String){
+//metodo alteraçao
+public void setTelefone(String telefone){
     this.telefone=telefone;
 }
 //get
-pubic String getTelefone(){
+//metodo consulta
+public String getTelefone(){
     return this.telefone;
 }
 //set
-pubic void setEndereco(String){
-  this.endereco=endereco;  
+//metodo alteraçao
+public void setEndereco(String endereco){
+   this.endereco=endereco;  
 }
 //get
-pubic String getEndereco(){
+//metodo consulta
+public String getEndereco(){
    return this.endereco; 
 }
 //construtor padrão tem o nome da classe e sem os parámetros
@@ -32,11 +41,11 @@ public Pessoa(){
 
 }
 //construtor com um parámetro
-pubic Pessoa(String nome){
-    this.nome-nome;
+public Pessoa(String nome){
+    this.nome=nome;
 }
 //construtor com dois parámetros
-pubic Pessoa(String nome, String telefone){
+public Pessoa(String nome, String telefone){
     this.nome=nome;
     this.telefone=telefone;
 }
